@@ -1,0 +1,38 @@
+[
+    {
+    "id": "1", 
+    "name": "samsung galaxy",
+     "price":"700",
+     "img":"https://w7.pngwing.com/pngs/2/872/png-transparent-telephone-samsung-t-mobile-4g-smartphone-samsung-gadget-mobile-phone-mobile-phones.png"
+    },
+    {
+        "id": "2", 
+        "name": "Samsung Galaxy Z",
+         "price":"800",
+         "img":"https://freebiehive.com/wp-content/uploads/2022/08/Samsung-Galaxy-Z-Fold-4-PNG-1.jpg"
+        },
+        {
+            "id": "3", 
+            "name": "samsung galaxy note 20",
+             "price":"900",
+             "img":"https://png.pngtree.com/png-clipart/20200817/ourmid/pngtree-samsung-galaxy-note-20-mockup-mystic-bronze-mystic-green-color-view-png-image_2328345.jpg"
+            },
+            {
+                "id": "4", 
+                "name": "iPhone 15",
+                 "price":"1000",
+                 "img":"https://freebiehive.com/wp-content/uploads/2023/09/Apple-iPhone-15-Lineup-PNG.jpg"
+                },
+                {
+                    "id": "5", 
+                    "name": "iPhone 13 pro",
+                     "price":"800",
+                     "img":"https://freebiehive.com/wp-content/uploads/2021/12/iphone-13-pro-graphite-png.jpg"
+                },
+                {
+                    "id": "7", 
+                    "name": "iPhone 14 pro",
+                     "price":"900",
+                     "img":"https://i.pngimg.me/thumb/f/720/5e689bf8f94340ed8c83.jpg"
+                }
+]

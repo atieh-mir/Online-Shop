@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1", 
+        "name": "Red Headphones",
+         "price":"400",
+         "img":"https://e7.pngegg.com/pngimages/969/417/png-clipart-red-beats-by-dr-dre-wireless-headphones-headphones-beats-electronics-microphone-sound-disc-jockey-headphone-electronics-recording-studio-thumbnail.png"
+        },
+        {
+            "id": "2", 
+            "name": "Pink Headphones",
+             "price":"500",
+             "img":"https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL3Jhd3BpeGVsX29mZmljZV80NV8zZF9pbGx1c3RyYXRpb25fb2ZfYW5faWNvbl9oZWFkcGhvbmVzX21pbmltYV8wNjRhNDA2Mi01MDg0LTQ2OTctYjBmMS1hODUxNjBlNTg0MjBfMS5wbmc.png"
+            }
+]
