@@ -1,17 +1,17 @@
 
 
 import Image from "next/image";
-import icon from "../../../images/3.png"
-import basket from "../../../images/2.png"
+import icon from "../images/3.png"
+import basket from "../images/2.png"
 import Link from "next/link";
 
-export const Header = () => {
+export const Navbar = () => {
 
     const navbar = [
-        {id: "#Home" , name: "Home" },
-        {id: "#Phone" , name: "Phone" },
-        {id: "#Laptop" , name: "Laptop"},
-        {id: "#headphones" , name: "Headphones"}
+        {id: 0 , name: "Home" , pathId:"#up"},
+        {id: 1 , name: "Phone" , pathId:"#phone"},
+        {id: 2 , name: "Laptop", pathId:"#laptop"},
+        {id: 3 , name: "Headphones" , pathId:"#headphones"}
     ]
     return(
         <div className="bg-white space-x-2 md:space-x-5 py-2 h-20 md:h-[94px]  xl:h-[98px]  shadow-md fixed w-full ">
@@ -41,13 +41,13 @@ export const Header = () => {
          </div>
         </div>
    
-        <div className=" hidden lg:flex  items-center  space-x-6    ">
+        <div class=" hidden lg:flex  items-center  space-x-6    ">
                 {
                     navbar.map(({id, name, pathId})=>{
                         return(
-                            <div className="group " key={id}>
-                            <a href={id}>{name}</a>
-                            <div className="duration-500 border-b-2 opacity-0 border-purple-700 group-hover:opacity-100 "></div>
+                            <div class="group " id={id}>
+                            <a href={pathId}>{name}</a>
+                            <div class="duration-500 border-b-2 opacity-0 border-purple-700 group-hover:opacity-100 "></div>
                         </div>
                         )
                     })
