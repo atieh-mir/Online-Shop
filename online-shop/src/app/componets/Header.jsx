@@ -1,29 +1,27 @@
 
 
 import Image from "next/image";
-import icon from "../../../images/3.png"
-import basket from "../../../images/2.png"
+import logo from "../../../images/3.png"
+import card from "../../../images/2.png"
 import Link from "next/link";
+import { Navbar } from "./Navbar";
 
 export const Header = () => {
-
-    const navbar = [
-        {id: "#Home" , name: "Home" },
-        {id: "#Phone" , name: "Phone" },
-        {id: "#Laptop" , name: "Laptop"},
-        {id: "#headphones" , name: "Headphones"}
-    ]
     return(
-        <div className="bg-white space-x-2 md:space-x-5 py-2 h-20 md:h-[94px]  xl:h-[98px]  shadow-md fixed w-full ">
+        <div className="bg-white space-x-2 md:space-x-5 py-2 h-[82px] md:h-[98px] shadow-md fixed w-full  flex flex-col  ">
         <div className="flex flex-row-reverse justify-between items-center ">
         <div>
-          <Link href="/"><Image src={icon} className="w-24 hidden lg:w-20 md:inline-block " alt="icon store" /></Link>
+          <Link href="/"><Image src={logo} className="w-24 hidden lg:w-20 md:inline-block  " alt="icon store" /></Link>
+         
          </div>
-         <div className="w-[100%] px-2 flex justify-center">
+         <div className="w-[100%] px-2 flex  justify-center">
+        
            <input type="text"
            placeholder="Search"
-           className=" rounded-md p-2 focus:outline-none placeholder:font-thin  border border-purple-200 h-12 w-[100%] md:w-[90%] lg:w-[75%] "
+           className=" rounded-md p-2 focus:outline-none placeholder:font-thin  border border-purple-200 h-12   w-[60%] md:w-[80%] lg:w-[75%] mr-10 "
            />
+           
+          
          </div>
          <div className="  flex-row-reverse items-center hidden md:flex">
           <div className=" border-l-2 pl-2">
@@ -35,25 +33,13 @@ export const Header = () => {
           </div>
           <div className=" mr-4 ">
           <Link href='/card'>
-          <Image src={basket} alt="user" className="w-28 mr-4 lg:w-20  cursor-pointer   hover:scale-105"/>
+          <Image src={card} alt="user" className="w-28 mr-4 lg:w-20  cursor-pointer   hover:scale-105"/>
           </Link>
           </div>
+          
          </div>
         </div>
-   
-        <div className=" hidden lg:flex  items-center  space-x-6    ">
-                {
-                    navbar.map(({id, name, pathId})=>{
-                        return(
-                            <div className="group " key={id}>
-                            <a href={id}>{name}</a>
-                            <div className="duration-500 border-b-2 opacity-0 border-purple-700 group-hover:opacity-100 "></div>
-                        </div>
-                        )
-                    })
-                }
-   
-         </div>
+        <Navbar />
        </div>
     )
 }
