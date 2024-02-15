@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1, 
+        "name": "Red Headphones",
+         "price":"400",
+         "img":"https://www.pngitem.com/pimgs/m/84-840044_headphones-clipart-beats-headphone-red-beats-solo-3.png"
+        },
+        {
+            "id": 2, 
+            "name": "black Headphones",
+             "price":"500",
+             "img":"https://img.freepik.com/free-psd/levitating-headphones-still-life_23-2150806967.jpg"
+            },
+            {
+                "id": 2, 
+                "name": "blue Headphones",
+                 "price":"450",
+                 "img":"https://static.vecteezy.com/system/resources/previews/024/558/845/original/blue-wireless-headphones-isolated-on-transparent-background-ai-generated-png.png"
+                }
+]
