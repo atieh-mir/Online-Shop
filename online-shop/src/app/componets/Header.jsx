@@ -1,14 +1,13 @@
 
 
 import Image from "next/image";
-import logo from "../../../images/3.png"
-import card from "../../../images/2.png"
+import {logo,cart} from "../../../images"
 import Link from "next/link";
-import { Navbar } from "./Navbar";
+import { Navbar } from "../componets";
 
 export const Header = () => {
     return(
-        <div className="bg-white space-x-2 md:space-x-5 py-2 h-[82px] md:h-[98px] shadow-md fixed w-full  flex flex-col  ">
+        <div className="bg-white space-x-2 md:space-x-5 py-2 h-[82px] md:h-[98px] shadow-md   fixed w-full  flex flex-col  ">
         <div className="flex flex-row-reverse justify-between items-center ">
         <div>
           <Link href="/"><Image src={logo} className="w-24 hidden lg:w-20 md:inline-block  " alt="icon store" /></Link>
@@ -32,8 +31,8 @@ export const Header = () => {
           </Link>
           </div>
           <div className=" mr-4 ">
-          <Link href='/card'>
-          <Image src={card} alt="user" className="w-28 mr-4 lg:w-20  cursor-pointer   hover:scale-105"/>
+          <Link href='/cart'>
+          <Image src={cart} alt="user" className="w-28 mr-4 lg:w-20  cursor-pointer   hover:scale-105"/>
           </Link>
           </div>
           
