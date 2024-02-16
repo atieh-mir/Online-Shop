@@ -1,11 +1,12 @@
-import { Header } from "./componets/Header";
+import { Header, ListProducts } from "./componets";
+
 
 
 export default function Home() {
   return (
-    <div className=" min-h-screen bg-rose-100  " id="Home">
+    <div className=" flex flex-col items-center  min-h-screen   " id="Home">
     <Header />
-
+    <ListProducts />
 
     </div>
   );
