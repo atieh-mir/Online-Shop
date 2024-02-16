@@ -1,10 +1,7 @@
 "use client"
 import Image from "next/image";
 import { useState } from "react";
-import logo from "../../../images/3.png";
-import menu from "../../../images/menu.png";
-import cross from "../../../images/cross.png";
-import cart from "../../../images/2.png"
+import {logo,menu,cross, cart} from "../../../images";
 import Link from "next/link";
 export  const Navbar = () => {
 
@@ -30,7 +27,7 @@ export  const Navbar = () => {
                 }
    
          </div>
-
+        {/*  mobile navbar */}
          <div className="flex  justify-end md:hidden pr-10 absolute -top-12 ">
       <div
         className={` ${
@@ -51,7 +48,7 @@ export  const Navbar = () => {
          <Link href='/'>
          <Image
           src={logo} 
-          className={` transition duration-500 w-20 h-20 absolute       ${
+          className={` transition duration-500 w-20 h-20 absolute rounded-full ${
             !open && "rotate-[360deg] right-10 top-0 "
           }`}
           />
@@ -76,7 +73,7 @@ export  const Navbar = () => {
 
          <div className="flex flex-col items-center  space-y-2 ">
          <div className="  flex  ">
-          <Link href='/card'>
+          <Link href='/cart'>
           <button className=" flex  items-center group border border-purple-700 duration-200   rounded-2xl w-32 h-10  hover:shadow-lg hover:shadow-purple-300  ">
           <Image src={cart} alt="shopping cart" className="w-12 mr-4  border-purple-100 border-r-2  cursor-pointer   group-hover:scale-105 group-hover:border-gray-300 "/>
          { <p className="text-xs group-hover:font-semibold text-left">
