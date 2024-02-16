@@ -1,38 +1,38 @@
 [
     {
     "id": "1", 
-    "name": "samsung galaxy",
+    "name": "samsung galaxy A54",
      "price":"700",
-     "img":"https://w7.pngwing.com/pngs/2/872/png-transparent-telephone-samsung-t-mobile-4g-smartphone-samsung-gadget-mobile-phone-mobile-phones.png"
+     "img":"https://img.us.news.samsung.com/us/wp-content/uploads/2023/03/14140259/samsung-galaxy-a54-5g-featured.png"
     },
     {
         "id": "2", 
         "name": "Samsung Galaxy Z",
          "price":"800",
-         "img":"https://freebiehive.com/wp-content/uploads/2022/08/Samsung-Galaxy-Z-Fold-4-PNG-1.jpg"
+         "img":"https://images.samsung.com/is/image/samsung/p6pim/ph/sm-f721bzaaphl/gallery/ph-galaxy-z-flip4-f721-sm-f721bzaaphl-534228005?$650_519_PNG$"
         },
         {
             "id": "3", 
             "name": "samsung galaxy note 20",
              "price":"900",
-             "img":"https://png.pngtree.com/png-clipart/20200817/ourmid/pngtree-samsung-galaxy-note-20-mockup-mystic-bronze-mystic-green-color-view-png-image_2328345.jpg"
+             "img":"https://images.samsung.com/is/image/samsung/levant-galaxy-note20-ultra-n985-sm-n985fzngmid-frontmysticbronze-319627588?$650_519_PNG$"
             },
             {
                 "id": "4", 
                 "name": "iPhone 15",
                  "price":"1000",
-                 "img":"https://freebiehive.com/wp-content/uploads/2023/09/Apple-iPhone-15-Lineup-PNG.jpg"
+                 "img":"https://png.monster/wp-content/uploads/2023/09/PNG.monsterapple-iphone-15-pro-photo%20png.png"
                 },
                 {
                     "id": "5", 
                     "name": "iPhone 13 pro",
                      "price":"800",
-                     "img":"https://freebiehive.com/wp-content/uploads/2021/12/iphone-13-pro-graphite-png.jpg"
+                     "img":"https://images.dailyobjects.com/marche/product-images/1101/slick-phone-case-cover-for-iphone-13-pro-images/Nimbus-Phone-Case-Cover-For-iPhone-13-Pro.png?tr=cm-pad_resize,v-2,w-412,h-490,dpr-2,q-60"
                 },
                 {
                     "id": "7", 
                     "name": "iPhone 14 pro",
                      "price":"900",
-                     "img":"https://i.pngimg.me/thumb/f/720/5e689bf8f94340ed8c83.jpg"
+                     "img":"https://png.monster/wp-content/uploads/2022/09/png.monster-209.png"
                 }
 ]

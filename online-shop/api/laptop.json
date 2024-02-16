@@ -1,14 +1,14 @@
 [
     {
         "id": "1", 
-        "name": "laptop 1",
-         "price":"3000",
-         "img":"https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L21vdGFybzdfM2RfaWxsdXN0cmF0aW9uX29mX2xhcHRvcF9faXNvbGF0ZWRfb25fd2hpdGVfYmFja2dyb3VuZF9iNjBjZTc5Ny0wMDhmLTRkMWYtYjlkNS02ZWMwNjU4Mzg1NzMucG5n.png"
+        "name": "Lenovo ",
+         "price":"5000",
+         "img":"https://www.lenovo.com/medias/Notebook-Lenovo-V15-1.jpg?context=bWFzdGVyfHJvb3R8NzE2MzY1fGltYWdlL2pwZWd8aDI1L2g3OS8xMTgxMDQxNjAzMzgyMi5qcGd8MmVlNTkwNjgwYzljM2I4MGMzNTk1OTFkMDEzN2U0MWM4MjZkMjFjMDQzMjg0NDM5MjMzZjQzYjBmOWJjZGZkYw"
         },
         {
             "id": "2", 
-            "name": "laptop 2",
-             "price":"5000",
-             "img":"https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8zMV9waG90b19vZl9hX2xhcHRvcF9tb2NrdXBfY2xvc2UtdXBfbWluaW1hbF9pc182M2Q2NzViOS00YjlhLTQ3OWEtOGMyMS1hYWQwMjViNWYzZDIucG5n.png"
+            "name": "MacBook",
+             "price":"10000",
+             "img":"https://mayanhcudaklak.com/wp-content/uploads/2020/04/972403_2_1200x1200_w_g.jpg"
             }
 ]
