@@ -12,7 +12,10 @@ export const Headphones =() => {
                     return(
                         <div key={id} className='group  rounded-xl py-4 
                         h-80
-                        hover:shadow-2xl hover:scale-105 border border-slate-300 hover:bg-zinc-100 duration-300 cursor-pointer'>
+                        hover:shadow-2xl 
+                        hover:shadow-purple-400
+                        hover:scale-105 border border-slate-300 
+                        hover:bg-zinc-100 duration-300 cursor-pointer'>
                             <img  
                             src={img}
                             className='w-60 h-40 rounded-xl object-contain'

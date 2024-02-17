@@ -10,7 +10,10 @@ export const Phone =() => {
             {
                 phone.map(({name,id,price,img})=>{
                     return(
-                        <div key={id} className='group rounded-xl py-4 hover:shadow-2xl hover:scale-105 border border-slate-300 hover:bg-zinc-100 duration-300 cursor-pointer'>
+                        <div key={id} className='group rounded-xl py-4  hover:scale-105 border
+                        hover:shadow-2xl 
+                        hover:shadow-purple-400
+                        border-slate-300 hover:bg-zinc-100 duration-300 cursor-pointer'>
                             <img  
                             src={img}
                             className='w-60 h-40 rounded-xl object-contain '
