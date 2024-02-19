@@ -1,9 +1,13 @@
-export default function Cart(){
+import Cart from "./Cart";
 
+
+
+
+export default function CartPage(){
 
     return(
         <div>
-            his
+            <Cart />
         </div>
     )
 }
