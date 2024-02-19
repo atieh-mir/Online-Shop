@@ -1,5 +1,4 @@
 
-
 import Image from "next/image";
 import {logo,cart} from "../../../images"
 import Link from "next/link";
