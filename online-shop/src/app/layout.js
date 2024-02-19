@@ -1,6 +1,6 @@
 
 import "./globals.css";
-
+import { ReduxProvider } from "./cart/redux/provider";
 
 
 export const metadata = {
@@ -11,7 +11,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body>{children}</body>
+      <body>
+        <ReduxProvider>{children} </ReduxProvider></body>
     </html>
   );
 }

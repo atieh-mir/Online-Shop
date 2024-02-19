@@ -4,6 +4,10 @@ import logo from './3.png';
 import loginImg from './4.png';
 import cross from './cross.png';
 import menu from './menu.png';
+import facebook from './facebook.png';
+import google from './google.png';
+
+import error from './error.png';
 
 
 
@@ -13,5 +17,8 @@ export {
     logo,
     loginImg,
     cross,
-    menu
+    menu,
+    facebook,
+    google,
+    error
 }
