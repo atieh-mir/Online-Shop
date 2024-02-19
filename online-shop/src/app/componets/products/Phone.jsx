@@ -1,6 +1,7 @@
 
 
 import phone from '../../../../api/phone.json';
+import { Carts } from '../addToCart';
 
 export const Phone =() => {
 
@@ -21,9 +22,12 @@ export const Phone =() => {
                           <div className='flex  flex-col justify-center items-center space-y-2'>
                           <h6 className='font-medium  group-hover:font-semibold'>{name}</h6>
                             <p className='font-bold'>${price}</p>
-                            <button
-                            className='bg-purple-700 rounded-lg w-28 h-8  border border-purple-700 text-white text-center duration-300 group-hover:bg-white group-hover:text-black group-hover:font-semibold hover:shadow-lg hover:shadow-purple-300  hover:scale-105'
-                            >Add to cart</button>
+                            <Carts
+                             name={name}
+                             price={price}
+                             img={img}
+                             id={id}
+                            />
                           </div>
                         </div>
                     )
