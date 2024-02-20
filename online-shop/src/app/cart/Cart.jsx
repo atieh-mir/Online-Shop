@@ -9,7 +9,6 @@ import {
   removeFromCart,
 } from "./redux/cartSlice";
 
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faBagShopping,faTrashCan,faMinus,faPlus} from "@fortawesome/free-solid-svg-icons"
 import Link from "next/link";
@@ -38,7 +37,7 @@ export default function Cart(){
       };
     return(
        
-         <div className="flex flex-col items-center justify-center  text-left min-h-screen">
+         <div className="flex flex-col items-center justify-center  text-left min-h-screen bg-slate-50">
            
             {
                cart.cartItems.length === 0 ? (
@@ -48,15 +47,15 @@ export default function Cart(){
                     </div>    
                 ) :
                 (
-                    <div className="md:w-1/2 xl:w-3/4">
+                    <div className="md:w-1/2  xl:w-1/2  rounded-lg ">
                          <div className="flex flex-row-reverse justify-center items-center ">
                          <p className="text-lg"><span className="text-purple-900">({cartTotalQuantity})</span>Your cart shopping </p>
-                         <button onClick={() => handleClearCart()}><FontAwesomeIcon className="text-red-600" icon={faTrashCan}  /></button>
+                        
                          </div>
                        {
                         cart.cartItems &&
                         cart.cartItems.map( cartItem => (
-                            <div key={cartItem.id} className=" shadow-md flex flex-col justify-center relative mt-4 px-2 pt-10 w-72 md:w-[100%] rounded-md">
+                            <div key={cartItem.id} className=" shadow-md flex flex-col justify-center relative mt-4 px-2 pt-10 w-72 md:w-[100%] rounded-md bg-white">
                                 <div>
                                    <p className="absolute top-4 "> {cartItem.name} </p>
                                    <img src={ cartItem.img} className="object-contain w-20 absolute top-1 right-0" />
@@ -81,12 +80,16 @@ export default function Cart(){
                         ))
                        }
                        <div className="flex flex-row-reverse justify-between items-center py-3">
-                        <span className="text-base font-medium">
-                        Total
-                        </span>
+                       <button
+                        onClick={() => handleClearCart()}
+                        className="bg-red-600 text-white px-4 py-2 rounded-2xl hover:shadow-md hover:bg-red-700 duration-500"
+                        >clear Cart</button>
+                       
+                      
                        <div className="font-semibold">
-                       <span >
-                            ${cart.cartTotalAmount}
+                       
+                       <span className="text-base font-medium" >
+                           Total : ${cart.cartTotalAmount}
                         </span>
                        
                        </div>
