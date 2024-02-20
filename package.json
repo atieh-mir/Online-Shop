@@ -8,6 +8,7 @@
     "@react-icons/all-files": "^4.1.0",
     "@reduxjs/toolkit": "^2.2.1",
     "clsx": "^2.1.0",
-    "react-redux": "^9.1.0"
+    "react-redux": "^9.1.0",
+    "react-toastify": "^10.0.4"
   }
 }
