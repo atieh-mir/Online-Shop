@@ -42,7 +42,7 @@ export  const Navbar = () => {
          className={`absolute cursor-pointer left-0 top-4 w-7 duration-500 
           ${!open && "rotate-180"}`}
         onClick={() => setOpen(!open)}
-         />
+          alt=""/>
       
         <div className={`flex flex-col   ${open && 'w-20  absolute -top-4 -right-18 '}`} >
          <Link href='/'>
@@ -51,7 +51,7 @@ export  const Navbar = () => {
           className={` transition duration-500 w-20 h-20 absolute rounded-full ${
             !open && "rotate-[360deg] right-10 top-0 "
           }`}
-          />
+          alt="" />
          </Link>
 
         </div>

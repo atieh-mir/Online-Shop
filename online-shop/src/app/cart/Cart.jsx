@@ -12,6 +12,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faBagShopping,faTrashCan,faMinus,faPlus} from "@fortawesome/free-solid-svg-icons"
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Cart(){
     const cart = useSelector((state) => state.cart);
@@ -58,7 +59,7 @@ export default function Cart(){
                             <div key={cartItem.id} className=" shadow-md flex flex-col justify-center relative mt-4 px-2 pt-10 w-72 md:w-[100%] rounded-md bg-white">
                                 <div>
                                    <p className="absolute top-4 "> {cartItem.name} </p>
-                                   <img src={ cartItem.img} className="object-contain w-20 absolute top-1 right-0" />
+                                   <Image src={ cartItem.img} className="object-contain w-20 absolute top-1 right-0"  alt=""/>
                                  </div>
                                 <div className="">
                                     <div >

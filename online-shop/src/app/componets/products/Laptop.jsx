@@ -1,6 +1,7 @@
 
 
 
+import Image from 'next/image';
 import laptop from '../../../../api/laptop.json';
 import { Carts } from '../addToCart';
 
@@ -16,10 +17,10 @@ export const Laptop =() => {
                         hover:shadow-2xl 
                         hover:shadow-purple-400
                         hover:bg-zinc-100 duration-300 cursor-pointer '>
-                            <img  
+                            <Image
                             src={img}
                             className='w-60 h-40 rounded-xl object-contain '
-                            />
+                             alt='' />
                           <div className='flex  flex-col justify-center items-center space-y-2'>
                           <h6 className='font-medium  group-hover:font-semibold'>{name}</h6>
                             <p className='font-bold'>${price}</p>
